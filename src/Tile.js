@@ -5,18 +5,15 @@ import styles from "./Tile.css";
 const Tile = props => (
   props.disabled == false ? 
     <input
-      className={styles.TileEnabled}
+      className={styles.Tile+" "+styles.TileEnabled}
       type="number"
-      min="0"
+      min="1"
       max="9"
       value={props.value === "." ? "" : props.value}
       onChange={e => props.handleChange(props.index, e.target.value)}
     /> :
     <input
-      className={styles.TileDisabled}
-      type="number"
-      min="0"
-      max="9"
+      className={styles.Tile+" "+styles.TileDisabled}
       value={props.value}
       disabled
     />

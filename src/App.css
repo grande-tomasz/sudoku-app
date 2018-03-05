@@ -1,7 +1,63 @@
-.App {
-    
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+body,
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
-.Buttons {
+.App {
+  text-align: center;
+  font-family: 'Nanum Brush Script';
+}
 
+.Sudoku {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.Button {
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 3px;
+  background-color: white;
+  font-family: 'Nanum Brush Script';
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.New {
+  border-color: lightcoral;
+  color: lightcoral;
+}
+.New:hover {
+  background-color: lightcoral;
+  color: white;
+}
+.Restart {
+  border-color: lightsalmon;
+  color: lightsalmon;
+}
+.Restart:hover {
+  background-color: lightsalmon;
+  color: white;
+}
+.Check {
+  border-color: lightgreen;
+  color: lightgreen;
+}
+.Check:hover {
+  background-color: lightgreen;
+  color: white;
+}
+.Solve {
+  border-color: lightskyblue;
+  color: lightskyblue;
+}
+.Solve:hover {
+  background-color: lightskyblue;
+  color: white;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import styles from "./Board.css";
 import Tile from "./Tile";
+import styles from "./Board.css";
 
 const Board = props => (
   <div className={styles.Board}>
